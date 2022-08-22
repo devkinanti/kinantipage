@@ -7,15 +7,18 @@
             <v-col cols="12" sm="5">
               <h1 class="font-weight-light display-1">KONTAK</h1>
               <h3 class="font-weight-light mt-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
-                explicabo commodi quisquam asperiores dolore ad enim provident
-                veniam perferendis voluptate, perspiciatis.
+                Apabila anda membutuhkan informasi lebih lanjut, 
+                silahkan mengirim pesan pertanyaan di form yang
+                telah disediakan atau,
               </h3>
               <h3 class="font-weight-light mt-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing.
+                menghubungi melalui telpon, whataspp dan email di bawah ini.
               </h3>
               <h3 class="font-weight-light mt-3">
-                Telephone: +xx (xx) xxxxx-xxxx
+                Telpon: +62 (021) xxxxx-xxxx
+              </h3>
+              <h3 class="font-weight-light mt-3">
+                Whatsapp: +62812 xxxxx-xxxx
               </h3>
               <h3 class="font-weight-light">
                 Email: info@pedulicovid19-pemasyarakatan.id

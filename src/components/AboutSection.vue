@@ -27,7 +27,19 @@
               </h1>
                 <v-col cols="12" class="d-flex align-center">
                   <v-img
-                    src="@/assets/img/icon2.svg"
+                    src="@/assets/img/team/profile.png"
+                    max-width="60px"
+                    class="mr-4"
+                  />
+                  <p class="text-justify">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  </p>
+                </v-col>
+               <v-col cols="12" class="d-flex align-center">
+                  <v-img
+                    src="@/assets/img/team/profile.png"
                     max-width="60px"
                     class="mr-4"
                   />
@@ -39,7 +51,7 @@
                 </v-col>
                 <v-col cols="12" class="d-flex align-center">
                   <v-img
-                    src="@/assets/img/icon3.svg"
+                    src="@/assets/img/team/profile.png"
                     max-width="60px"
                     class="mr-4"
                   />
@@ -49,11 +61,97 @@
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   </p>
                 </v-col>
+                 <v-col cols="12" class="d-flex align-center">
+                  <v-img
+                    src="@/assets/img/team/profile.png"
+                    max-width="60px"
+                    class="mr-4"
+                  />
+                  <p class="text-justify">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  </p>
+                </v-col>
+                 <v-col cols="12" class="d-flex align-center">
+                  <v-img
+                    src="@/assets/img/team/profile.png"
+                    max-width="60px"
+                    class="mr-4"
+                  />
+                  <p class="text-justify">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  </p>
+                </v-col>
+                 <v-col cols="12" class="d-flex align-center">
+                  <v-img
+                    src="@/assets/img/team/profile.png"
+                    max-width="60px"
+                    class="mr-4"
+                  />
+                  <p class="text-justify">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  </p>
+                </v-col>
+                 <v-col cols="12" class="d-flex align-center">
+                  <v-img
+                    src="@/assets/img/team/profile.png"
+                    max-width="60px"
+                    class="mr-4"
+                  />
+                  <p class="text-justify">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  </p>
+                </v-col>
+                 <v-col cols="12" class="d-flex align-center">
+                  <v-img
+                    src="@/assets/img/team/profile.png"
+                    max-width="60px"
+                    class="mr-4"
+                  />
+                  <p class="text-justify">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  </p>
+                </v-col>
+                 <v-col cols="12" class="d-flex align-center">
+                  <v-img
+                    src="@/assets/img/team/profile.png"
+                    max-width="60px"
+                    class="mr-4"
+                  />
+                  <p class="text-justify">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  </p>
+                </v-col>
+                 <v-col cols="12" class="d-flex align-center">
+                  <v-img
+                    src="@/assets/img/team/profile.png"
+                    max-width="60px"
+                    class="mr-4"
+                  />
+                  <p class="text-justify">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  </p>
+                </v-col>
+                
+               
               </v-row>
             </v-col>
             <v-col cols="12" md="5" class="d-none d-md-flex">
               <v-img
-                src="@/assets/img/ill1.svg"
+                src="@/assets/img/ill1.png"
                 class="d-block ml-auto mr-auto"
                 max-width="400px"
               />

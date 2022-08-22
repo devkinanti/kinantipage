@@ -94,24 +94,24 @@ export default {
   data() {
     return {
       dialog: false,
-      videoId: "i8IvvHJssWE",
+      videoId: "Ds3SGvw0Wn8",
       features: [
         {
           img: require("@/assets/img/icon2.png"),
           title: "PETUNJUK KURSUS",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          text: "Panduan penggunaan sistem pembelajaran daring",
           href:"https://lms.pedulicovid19-pemasyarakatan.id/moodle/course/view.php?id=2"
         },
         {
           img: require("@/assets/img/icon1.png"),
           title: "MODUL A: UMUM",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          text: "PENCEGAHAN DAN PENANGGULANGAN COVID-19 DI UPT",
            href:"https://lms.pedulicovid19-pemasyarakatan.id/moodle/course/view.php?id=2"
         },
         {
           img: require("@/assets/img/icon3.png"),
           title: "MODUL B: TENAGA MEDIS",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          text: "PENCEGAHAN DAN PENANGGULANGAN COVID-19 DI UPT",
            href:"https://lms.pedulicovid19-pemasyarakatan.id/moodle/course/view.php?id=1"
         },
       ],

@@ -61,7 +61,7 @@
         <v-btn text @click="$vuetify.goTo('#hero')">
           <span class="mr-2">HOME</span>
         </v-btn>
-        <v-btn text @click="$vuetify.goTo('#features')">
+        <v-btn text @click="$vuetify.goTo('#about')">
           <span class="mr-2">TENTANG KAMI</span>
         </v-btn>
         <v-btn text @click="$vuetify.goTo('#kursus')">
@@ -96,10 +96,10 @@ export default {
     isXs: false,
     items: [
       ["mdi-home-outline", "Home", "#hero"],
-      ["mdi-information-outline", "Sobre", "#features"],
-      ["mdi-download-box-outline", "Download", "#download"],
-      ["mdi-currency-usd", "Preços", "#pricing"],
-      ["mdi-email-outline", "Contatos", "#contact"],
+      ["mdi-information-outline", "Tentang Kami", "#about"],
+      ["mdi-bookshelf", "Kursus", "#kursus"],
+      ["mdi-newspaper", "Berita", "#berita"],
+      ["mdi-email-outline", "Kontak", "#contact"],
     ],
   }),
   props: {

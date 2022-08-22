@@ -2,7 +2,7 @@
   <section id="kursus">
     <v-container fluid class="mt-2">
       <v-row align="center" justify="center">
-        <v-col cols="10">
+        <v-col >
           <v-row align="center" justify="space-around">
             <!-- <v-col cols="12" class="text-center">
               <h1 class="font-weight-light display-2">Title</h1>
@@ -23,10 +23,11 @@
                   shaped
                   :elevation="hover ? 10 : 4"
                   :class="{ up: hover }"
+                  @click="feature.action"
                 >
                   <v-img
                     :src="feature.img"
-                    max-width="100px"
+                    max-width="300px"
                     class="d-block ml-auto mr-auto"
                     :class="{ 'zoom-efect': hover }"
                   ></v-img>
@@ -55,19 +56,19 @@ export default {
           img: require("@/assets/img/icon2.png"),
           title: "PETUNJUK KURSUS",
           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          href:"https://lms.pedulicovid19-pemasyarakatan.id/moodle/course/view.php?id=2"
+          action:(e)=>{window.location.replace("https://lms.pedulicovid19-pemasyarakatan.id/moodle/course/view.php?id=2")},
         },
         {
           img: require("@/assets/img/icon1.png"),
           title: "MODUL A: UMUM",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-           href:"https://lms.pedulicovid19-pemasyarakatan.id/moodle/course/view.php?id=2"
+          text: "PENCEGAHAN DAN PENANGGULANGAN COVID-19 DI UPT",
+          action:(e)=>{window.location.replace("https://lms.pedulicovid19-pemasyarakatan.id/moodle/course/view.php?id=2")},
         },
         {
           img: require("@/assets/img/icon3.png"),
           title: "MODUL B: TENAGA MEDIS",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-           href:"https://lms.pedulicovid19-pemasyarakatan.id/moodle/course/view.php?id=1"
+          text: "PENCEGAHAN DAN PENANGGULANGAN COVID-19 DI UPT",
+          action:(e)=>{window.location.replace("https://lms.pedulicovid19-pemasyarakatan.id/moodle/course/view.php?id=1")},
         },
       ],
     };
@@ -80,35 +81,18 @@ export default {
     },
   },
   methods: {
-    ready(event) {
-      this.player = event.target;
-    },
-    playing(event) {
-      // The player is playing a video.
-    },
-    change() {
-      // when you change the value, the player will also change.
-      // If you would like to change `playerVars`, please change it before you change `videoId`.
-      // If `playerVars.autoplay` is 1, `loadVideoById` will be called.
-      // If `playerVars.autoplay` is 0, `cueVideoById` will be called.
-      this.videoId = "another video id";
-    },
-    stop() {
-      this.player.stopVideo();
-    },
-    pause() {
-      this.player.pauseVideo();
-    },
+    
     learning(){
       window.location.replace("http://lms.pedulicovid19-pemasyarakatan.id");
     },
+   
   },
 };
 </script>
 
 
 <style scoped>
-#download {
+#kursus {
   background-image: url("~@/assets/img/bgDownload.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;

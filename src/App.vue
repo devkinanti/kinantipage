@@ -5,7 +5,7 @@
       <home />
       <about />
       <kursus />
-      <pricing />
+      <berita />
       <contact />
     </v-main>
     <v-scale-transition>
@@ -42,7 +42,7 @@ import foote from "./components/Footer";
 import home from "./components/HomeSection";
 import about from "./components/AboutSection";
 import kursus from "./components/KursusSection";
-import pricing from "./components/PricingSection";
+import berita from "./components/BeritaSection";
 import contact from "./components/ContactSection";
 
 export default {
@@ -54,7 +54,7 @@ export default {
     home,
     about,
     kursus,
-    pricing,
+    berita,
     contact,
   },
 
