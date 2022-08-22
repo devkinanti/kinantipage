@@ -5,15 +5,15 @@
         <v-col cols="10">
           <v-row align="center" justify="center">
             <v-col cols="12" md="7">
-              <h1 class="font-weight-light display-2">Sobre</h1>
+              <h1 class="font-weight-light display-2">TENTANG KAMI</h1>
               <h1 class="font-weight-light display-1 mb-3">
-                Lorem ipsum dolor!
+                Kata Sambutan
               </h1>
               <v-row>
                 <v-col cols="12" class="d-flex align-center">
                   <v-img
-                    src="@/assets/img/icon1.svg"
-                    max-width="60px"
+                    src="@/assets/img/team/dirjen.png"
+                    max-width="120px"
                     class="mr-4"
                   />
                   <p class="text-justify">
@@ -22,6 +22,9 @@
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   </p>
                 </v-col>
+                <h1 class="font-weight-light display-1 mb-3">
+                Team dan Kontributor
+              </h1>
                 <v-col cols="12" class="d-flex align-center">
                   <v-img
                     src="@/assets/img/icon2.svg"

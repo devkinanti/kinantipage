@@ -1,25 +1,25 @@
 <template>
   <section id="hero">
-    <v-parallax dark src="@/assets/img/bgHero.jpg" height="750">
+    <v-parallax dark src="@/assets/img/coverdepanlms.jpg" height="750">
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-row align="center" justify="center">
             <v-col cols="12" md="6" xl="8">
-              <h1 class="display-2 font-weight-bold mb-4">Vuetify.js</h1>
-              <h1 class="font-weight-light">
+              <h1 class="display-2 font-weight-bold mb-4">Program Pembelajaran ONLINE</h1>
+              <!-- <h1 class="font-weight-light">
                 Lorem ipsum dolor sit amet consectetur <br />
                 adipisicing elit. Maiores porro voluptatibus <br />
                 delectus nam optio harum!
-              </h1>
+              </h1> -->
               <v-btn
                 rounded
                 outlined
                 large
                 dark
-                @click="$vuetify.goTo('#features')"
+                @click="learning"
                 class="mt-5"
               >
-                Saiba mais
+                e-Learning
                 <v-icon class="ml-2">mdi-arrow-down</v-icon>
               </v-btn>
               <div class="video d-flex align-center py-4">
@@ -62,7 +62,7 @@
                     />
                   </svg>
                 </a>
-                <p class="subheading ml-2 mb-0">Assista o vídeo</p>
+                <p class="subheading ml-2 mb-0">PUTAR VIDEO</p>
               </div>
             </v-col>
             <v-col cols="12" md="6" xl="4" class="hidden-sm-and-down"> </v-col>
@@ -73,47 +73,7 @@
         <v-img src="@/assets/img/borderWaves.svg" />
       </div>
     </v-parallax>
-    <v-container fluid id="features" class="mt-2">
-      <v-row align="center" justify="center">
-        <v-col cols="10">
-          <v-row align="center" justify="space-around">
-            <!-- <v-col cols="12" class="text-center">
-              <h1 class="font-weight-light display-2">Title</h1>
-              <h1 class="font-weight-light">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </h1>
-            </v-col> -->
-            <v-col
-              cols="12"
-              sm="4"
-              class="text-center"
-              v-for="(feature, i) in features"
-              :key="i"
-            >
-              <v-hover v-slot:default="{ hover }">
-                <v-card
-                  class="card"
-                  shaped
-                  :elevation="hover ? 10 : 4"
-                  :class="{ up: hover }"
-                >
-                  <v-img
-                    :src="feature.img"
-                    max-width="100px"
-                    class="d-block ml-auto mr-auto"
-                    :class="{ 'zoom-efect': hover }"
-                  ></v-img>
-                  <h1 class="font-weight-regular">{{ feature.title }}</h1>
-                  <h4 class="font-weight-regular subtitle-1">
-                    {{ feature.text }}
-                  </h4>
-                </v-card>
-              </v-hover>
-            </v-col>
-          </v-row>
-        </v-col>
-      </v-row>
-    </v-container>
+
     <v-dialog v-model="dialog" max-width="640px">
       <v-card>
         <youtube
@@ -138,18 +98,21 @@ export default {
       features: [
         {
           img: require("@/assets/img/icon2.png"),
-          title: "Design Limpo",
+          title: "PETUNJUK KURSUS",
           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          href:"https://lms.pedulicovid19-pemasyarakatan.id/moodle/course/view.php?id=2"
         },
         {
           img: require("@/assets/img/icon1.png"),
-          title: "Dados Seguros",
+          title: "MODUL A: UMUM",
           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+           href:"https://lms.pedulicovid19-pemasyarakatan.id/moodle/course/view.php?id=2"
         },
         {
           img: require("@/assets/img/icon3.png"),
-          title: "Código Aberto",
+          title: "MODUL B: TENAGA MEDIS",
           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+           href:"https://lms.pedulicovid19-pemasyarakatan.id/moodle/course/view.php?id=1"
         },
       ],
     };
@@ -180,6 +143,9 @@ export default {
     },
     pause() {
       this.player.pauseVideo();
+    },
+    learning(){
+      window.location.replace("http://lms.pedulicovid19-pemasyarakatan.id");
     },
   },
 };
